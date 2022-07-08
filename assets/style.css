@@ -103,8 +103,10 @@ ul.tabs li {
   justify-content: center;
   text-align: left;
 }
-#tab-1 p:first-child {
-  margin-right: 250px;
+#tab-1 div:first-child {
+  display: flex;
+  flex-direction: row;
+  margin-right: 100px;
 }
 
 .ADN {
@@ -112,6 +114,12 @@ ul.tabs li {
      object-fit: cover;
   width: 100%;
   margin: auto;
+}
+
+.ADN1 {
+  height: 35px;
+  width: 35px;
+  margin: 1px;
 }
 
 #Portfolio {
