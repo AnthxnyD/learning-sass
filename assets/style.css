@@ -65,6 +65,12 @@ body {
 .card-text {
   margin-left: 0;
 }
+.card-text p {
+  margin-top: 25px;
+  margin-left: 40px;
+  margin-right: 40px;
+  text-align: left;
+}
 
 .lefty {
   float: left;
@@ -104,6 +110,11 @@ ul.tabs li {
   text-align: left;
 }
 #tab-1 div:first-child {
+  display: flex;
+  flex-direction: row;
+  margin-right: 100px;
+}
+#tab-1 div:nth-child(2) {
   display: flex;
   flex-direction: row;
   margin-right: 100px;
