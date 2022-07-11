@@ -87,6 +87,18 @@ body {
 background-color: #fff;
 height: 300px;
 
+margin-top: 0px;
+transition: margin-top 0.5s;
+&:hover {
+  
+    margin-top: -121px;
+  
+}
+p{
+
+    visibility: visible; 
+
+}
 
 
 }
@@ -99,16 +111,7 @@ height: 300px;
     
 
 }
-.FICHIER:hover{
 
-    p{
-
-        visibility: visible; 
-        
-    }
-    
-
-}
 
 .lefty {
 	float: left;

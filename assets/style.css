@@ -76,14 +76,18 @@ body {
 #Portfolio:hover {
   background-color: #fff;
   height: 300px;
+  margin-top: 0px;
+  transition: margin-top 0.5s;
+}
+#Portfolio:hover:hover {
+  margin-top: -121px;
+}
+#Portfolio:hover p {
+  visibility: visible;
 }
 
 .FICHIER p {
   visibility: hidden;
-}
-
-.FICHIER:hover p {
-  visibility: visible;
 }
 
 .lefty {
